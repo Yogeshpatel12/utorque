@@ -1,7 +1,5 @@
 const Contact = () => {
   return (
-    
-    
     <div className="relative min-h-screen bg-black">
       {/* Background Image */}
       <div
@@ -21,7 +19,7 @@ const Contact = () => {
               <h4 className="text-white text-2xl hover:text-red-600 duration-300 transition-all font-bold mb-4">
                 Leave Your Message
               </h4>
-              <p className="text-white mb-4 hover:text-red-600 duration-300 transition-all">
+              <p className="text-white mb-4 font-semibold hover:text-red-600 duration-300 transition-all">
                 If you have any questions about the services we provide simply
                 use the form below. We try and respond to all queries and
                 comments within 24 hours.
