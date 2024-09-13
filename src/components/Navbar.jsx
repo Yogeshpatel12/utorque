@@ -24,7 +24,8 @@ const Navbar = () => {
               to="/"
               className="font-bold text-xl sm:text-3xl block text-[#000000] hover:text-red-600 duration-300 transition-all"
             >
-              <div><img className="h-12" src="/logo3.png"></img></div>
+              <div className=""><img className="h-12 " src="/logo3.png"></img></div>
+              
             </Link>
             <ul className="hidden lg:flex items-center justify-center gap-6 list-none text-lg font-semibold">
               {navLinks.map(({ name, link }) => (
