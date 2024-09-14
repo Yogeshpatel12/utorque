@@ -107,7 +107,7 @@ const Footer = () => {
 
 
 
-      <div className="bg-[#0D1028] flex items-center justify-center pb-6"><img className="h-12" src="/logo3.png"></img></div>
+      <div className="bg-[#0D1028] flex items-center justify-center pb-6"><img className="h-12" src="/images/logo3.png"></img></div>
 
 
 

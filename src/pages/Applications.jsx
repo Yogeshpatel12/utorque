@@ -1,7 +1,7 @@
 import AnimatedWrapper from "../components/ui/AnimatedWrapper";
 import Container from "../components/ui/Container";
 
-// import applications from '../data/applications.js';
+import { applications } from '../data/applications';
 
 const Applications = () => {
   return (
@@ -17,10 +17,17 @@ const Applications = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center max-w-screen-2xl mx-auto my-10">
-        {[...Array(9)].map((_, i) => {
+        {applications.map((application) => {
           return (
-            <AnimatedWrapper animateFrom="right" key={i}>
-              <div className="size-60 sm:size-80 p-2 bg-gray-600 mx-auto " />
+            <AnimatedWrapper animateFrom="right" key={application.id}>
+              <div className="size-70 sm:size-80 p-2 bg-white  hover:scale-105 duration-500 transition-all mx-auto " >
+              <img
+                  src={application.image}  // Dynamically insert client's image
+                  alt={application.name}    // Alt text as the client’s name
+                  className="w-full h-full object-contain"  // Styling the image to fit properly
+                />
+              </div>
+              <p className="text-center mt-2 text-xl font-semibold hover:text-red-600">{application.name}</p>  {/* Client name below the image */}
             </AnimatedWrapper>
           );
         })}

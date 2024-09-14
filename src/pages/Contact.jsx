@@ -4,7 +4,7 @@ const Contact = () => {
       {/* Background Image */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: `url('bgimg.jpg')` }}
+        style={{ backgroundImage: `url('images/bgimg.jpg')` }}
       />
 
       {/* Overlay Content */}
