@@ -65,17 +65,12 @@ const About = () => {
           standards thus making us a major player in the industry circle.
         </p>
         <p class="text-white mt-6 font-medium hover:text-red-600 duration-300 transition-all">
-          Sincerely,
-          <br />
-          <strong>UNIQUE DC MOTOR BRAKE</strong>
+          Sincerely , 
+          
+          <strong>UNIQUE DC MOTOR BRAKE.</strong>
         </p>
-        <a
-          href=""
-          class="text-white font-semibold hover:text-red-600 duration-300 transition-all"
-        >
-          Contact us
-        </a>
-        <div className="text-white text-center text-2xl font-semibold hover:text-red-600 duration-300 transition-all ">
+        
+        <div className="text-white mt-8 text-center text-xl font-semibold hover:text-red-600 duration-300 transition-all ">
           <strong>OUR CERTIFICATE</strong>
         </div>
         <div className="mx-auto pt-4 w-full sm:w-3/4 md:w-1/2">

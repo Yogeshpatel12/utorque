@@ -6,7 +6,7 @@ import { applications } from '../data/applications';
 const Applications = () => {
   return (
     <Container>
-      <div className="text-center  mx-auto max-w-[480px] space-y-5 my-5 ">
+      <div className="text-center  mx-auto max-w-[1310px] space-y-5 my-5 ">
         <h2 className="text-4xl font-bold hover:text-red-600 duration-300 transition-all"><strong>Applications</strong></h2>
         <p className="text-md text-justify font-semibold hover:text-red-600 duration-300 transition-all">
           <strong>UNIQUE DC MOTOR BRAKE AND CLUTHES</strong> has proudly served a wide range of industrial

@@ -76,7 +76,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-white text-2xl"
           >
-            <i class="fa-brands fa-facebook hover:text-red-600 duration-300 transition-all"></i>
+            <i class="fa-brands fa-facebook hover:scale-90 hover:text-red-600 duration-300 transition-all"></i>
           </a>
           <a
             href="https://www.twitter.com"
@@ -84,7 +84,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-white text-2xl"
           >
-            <i class="fa-brands fa-twitter hover:text-red-600 duration-300 transition-all"></i>
+            <i class="fa-brands fa-twitter hover:scale-90 hover:text-red-600 duration-300 transition-all"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/unique-dc-motor-brake-236860229?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDq3oOrLvTEuHt6v3SxM6jA%3D%3D"
@@ -92,7 +92,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-white text-2xl"
           >
-            <i class="fa-brands fa-linkedin hover:text-red-600 duration-300 transition-all"></i>
+            <i class="fa-brands fa-linkedin  hover:scale-90 hover:text-red-600 duration-300 transition-all"></i>
           </a>
           <a
             href="https://www.instagram.com/uniquedcmotor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -100,7 +100,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-white text-2xl"
           >
-            <i className="fa-brands fa-instagram hover:text-red-600 duration-300 transition-all"></i>
+            <i className="fa-brands fa-instagram hover:text-red-600 hover:scale-90 duration-200 transition-all"></i>
           </a>
         </div>
       </div>
