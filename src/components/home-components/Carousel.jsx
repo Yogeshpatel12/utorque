@@ -4,20 +4,14 @@ import "swiper/css/pagination";
 import { Autoplay, EffectCreative } from "swiper/modules";
 
 const images = [
-  "images/carousel_images",
-  "images/carousel_images",
-  "images/carousel_images",
-  "images/carousel_images",
-  "images/carousel_images",
-  "images/carousel_images",
-  "images/carousel_images",
-  "images/carousel_images",
-  "images/carousel_images",
+  "images/bgimg9.png",
+  "images/bgimg9.png",
+  "images/bgimg9.png",
 ];
 
 const Carousel = () => {
   return (
-    <div className="w-full mx-auto max-w-[2048px] h-auto">
+    <div className="w-full mx-auto max-w-[2048px]">
       <Swiper
         speed={500}
         grabCursor={true}
@@ -40,12 +34,15 @@ const Carousel = () => {
       >
         {images.map((src, index) => (
           <SwiperSlide key={index} className="">
-            {/* <img
+            <div className="w-full p-5 aspect-video max-h-[85vh] bg-white">
+            <img
               src={src}
               alt={`Slide ${index + 1}`}
-              className="w-full object-cover object-center"
-            /> */}
-            <div className="w-full h-full p-5 aspect-video max-h-[85vh] bg-gray-600"></div>
+              className=""
+            />
+            </div>
+            
+            
           </SwiperSlide>
         ))}
       </Swiper>
