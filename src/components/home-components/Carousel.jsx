@@ -4,9 +4,12 @@ import "swiper/css/pagination";
 import { Autoplay, EffectCreative } from "swiper/modules";
 
 const images = [
-  "images/bgimg9.png",
-  "images/bgimg9.png",
-  "images/bgimg9.png",
+  "images/ban6.png",
+  "images/ban5.png",
+  "images/ban1.png",
+  "images/ban2.png",
+  "images/ban3.png",
+  "images/ban4.png",
 ];
 
 const Carousel = () => {
@@ -34,7 +37,7 @@ const Carousel = () => {
       >
         {images.map((src, index) => (
           <SwiperSlide key={index} className="">
-            <div className="w-full p-5 aspect-video max-h-[85vh] bg-white">
+            <div className="w-full  aspect-video max-h-[85vh] bg-white p-0  md:p-5">
             <img
               src={src}
               alt={`Slide ${index + 1}`}
