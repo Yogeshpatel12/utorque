@@ -1,8 +1,8 @@
 export const applications = [
   {
     id: 1,
-    name: "Auto Labelling Machines",
-    image: "/images/app1.webp",
+    name: "wind Mills",
+    image: "/images/app21.jpg",
     products_used: [],
   },
   {
@@ -49,8 +49,8 @@ export const applications = [
   },
   {
     id: 9,
-    name: "Auto Labelling Machines",
-    image: "/images/app9.jpg",
+    name: "Windmill Machineries",
+    image: "/images/app23.jpg",
     products_used: [],
   },
   {

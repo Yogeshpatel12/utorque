@@ -42,7 +42,7 @@ export const products = [
   {
     id: 5,
     // slug:"ac-fail-safe-brake",
-    name: "BRAKE MOTORS",
+    name: "ELECTRIC MOTORS",
     preview_image: "/images/prod5.png",
     images: [],
     description: "Material : Cast Iron",
@@ -74,6 +74,16 @@ export const products = [
     // slug:"ac-fail-safe-brake",
     name: "NMRV GEAR BOX",
     preview_image: "/images/prod8.png",
+    images: [],
+    description: "Material : Cast Iron",
+    applications: [""],
+    features:["Power : 0.5KW"," Gear Type : Worm"]
+  },
+  {
+    id: 9,
+    // slug:"ac-fail-safe-brake",
+    name: "BRAKE MOTORS",
+    preview_image: "/images/prod12.webp",
     images: [],
     description: "Material : Cast Iron",
     applications: [""],
