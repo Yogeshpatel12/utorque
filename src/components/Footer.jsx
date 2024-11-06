@@ -123,8 +123,9 @@ const Footer = () => {
             UNIQUE DC MOTOR BRAKES AND CLUTHES.
           </span>
         </p>
-        <p className="hover:text-red-600 font-semibold duration-300 transition-all">Made with Love by YOGESH PATEL.</p>
-        <p className="hover:text-red-600 font-semibold duration-300 transition-all">All Rights Reserved | 2024.</p>
+        <p className="hover:text-red-600 font-semibold duration-300 transition-all">Made with &nbsp;<i class="fa-solid fa-heart"> &nbsp;</i>  by YOGESH PATEL.</p>
+        <p className="hover:text-red-600 font-semibold duration-300 transition-all">Contact : +91 6375360041 , yp766104@gmail.com.</p>
+        <p className="hover:text-red-600 font-semibold duration-300 transition-all">All Rights Reserved | 2025.</p>
       </div>
     </footer>
   );

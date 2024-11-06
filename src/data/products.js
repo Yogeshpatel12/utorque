@@ -62,7 +62,7 @@ export const products = [
   {
     id: 7,
     // slug:"ac-fail-safe-brake",
-    name: "ELECTOHYDRAULIC THRUSTER BRAKE",
+    name: "ELECTROHYDRAULIC THRUSTER BRAKE",
     preview_image: "/images/prod7.png",
     images: [],
     description: "Material : Cast Iron",
