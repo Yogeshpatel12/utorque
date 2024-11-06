@@ -67,7 +67,7 @@ export const products = [
     images: [],
     description: "Material : Cast Iron",
     applications: [""],
-    features:["Torque : 400 mm","Weight : 68 Kg"]
+    features:["Torque : 400 nm","Weight : 68 Kg"]
   },
   {
     id: 8,
@@ -89,6 +89,17 @@ export const products = [
     applications: [""],
     features:["Power : 0.5KW"," Gear Type : Worm"]
   },
+  {
+    id: 10,
+    // slug:"ac-fail-safe-brake",
+    name: "ELECTROMAGNETIC CLUTH",
+    preview_image: "/images/prod13.webp",
+    images: [],
+    description: "Material : Cast Iron",
+    applications: [""],
+    features:["Torque : 5"," Gear Type : Worm"]
+  },
+  
 ]
 
 export default products;
