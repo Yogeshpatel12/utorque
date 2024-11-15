@@ -45,7 +45,7 @@ const Products = () => {
           );
         })}
       </div>
-      <div className="text-center  mx-auto max-w-[1390px] space-y-5 my-5 ">
+      {/* <div className="text-center  mx-auto max-w-[1390px] space-y-5 my-5 ">
         <h2 className="text-2xl font-bold hover:text-red-600 duration-300 transition-all">
           <strong>OUR PRODUCT'S DESCRIPTION</strong>
         </h2>
@@ -87,7 +87,7 @@ const Products = () => {
             </li>
           </ol>
         </p>
-      </div>
+      </div> */}
     </Container>
   );
 };

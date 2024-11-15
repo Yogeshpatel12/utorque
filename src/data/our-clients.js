@@ -11,7 +11,7 @@ export const clients = [
   },
   {
     id: 3,
-    name: "SUZLON",
+    name: "ADANI",
     image: "/images/client3.png",
   },
   {
@@ -39,44 +39,44 @@ export const clients = [
     name: "MOTWANE",
     image: "/images/client8.jpg",
   },
-  {
-    id: 9,
-    name: "ELECON",
-    image: "/images/client9.png",
-  },
-  {
-    id: 10,
-    name: "ELECTRA",
-    image: "/images/client10.png",
-  },
-  {
-    id: 11,
-    name: "KIRLOSKAR",
-    image: "/images/client11.avif",
-  },
-  {
-    id: 12,
-    name: "REXROTH",
-    image: "/images/client12.avif",
-  },
-  {
-    id: 13,
-    name: "V-GUARD",
-    image: "/images/client13.png",
-  },
-  {
-    id: 14,
-    name: "SCHNEIDER",
-    image: "/images/client14.png",
-  },
-  {
-    id: 15,
-    name: "CAT",
-    image: "/images/client15.png",
-  },
-  {
-    id: 16,
-    name: "ALSTOM",
-    image: "/images/client16.png",
-  },
+  // {
+  //   id: 9,
+  //   name: "ELECON",
+  //   image: "/images/client9.png",
+  // },
+  // {
+  //   id: 10,
+  //   name: "ELECTRA",
+  //   image: "/images/client10.png",
+  // },
+  // {
+  //   id: 11,
+  //   name: "KIRLOSKAR",
+  //   image: "/images/client11.avif",
+  // },
+  // {
+  //   id: 12,
+  //   name: "REXROTH",
+  //   image: "/images/client12.avif",
+  // },
+  // {
+  //   id: 13,
+  //   name: "V-GUARD",
+  //   image: "/images/client13.png",
+  // },
+  // {
+  //   id: 14,
+  //   name: "SCHNEIDER",
+  //   image: "/images/client14.png",
+  // },
+  // {
+  //   id: 15,
+  //   name: "CAT",
+  //   image: "/images/client15.png",
+  // },
+  // {
+  //   id: 16,
+  //   name: "ALSTOM",
+  //   image: "/images/client16.png",
+  // },
 ];

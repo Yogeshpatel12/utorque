@@ -2,10 +2,10 @@ const About = () => {
   return (
     <div class="py-2 relative min-h-screen bg-black">
       <div
-        className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-60"
+        className="absolute top-0 left-0 w-full h-full bg-cover  opacity-60"
         style={{ backgroundImage: `url('images/bgimg.jpg')` }}
       />
-      <div class="relative min-h-screen container mx-auto px-4 bg-gray-900 bg-opacity-60">
+      <div class="relative min-h-screen  mx-auto px-4 bg-gray-900 bg-opacity-60">
         <h1 class="text-white text-2xl font-semibold mb-4 py-8  pt-20 hover:text-red-600 duration-300 transition-all">
           <strong>ABOUT US</strong>
         </h1>

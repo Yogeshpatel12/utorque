@@ -26,8 +26,8 @@ const Footer = () => {
               </span>
               <span className="font-semibold">E-mail</span>
             </div>
-            <p className="mt-2 ">unique.electro</p>
-            <p>magneticbrake@gmail.com</p>
+            <p className="mt-2 ">unique@dcmotorbrake.com</p>
+            
           </div>
 
           {/* Website Section */}
@@ -44,7 +44,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="mt-2"
             >
-              www.dcmotorbrake.com
+            uniquedcmotorbrake.com
             </a>
           </div>
         </div>
@@ -55,16 +55,16 @@ const Footer = () => {
           <div>
             <h2 className="font-bold text-lg hover:text-red-600 duration-300 transition-all ">REGISTERED & HEAD OFFICE</h2>
             <p className="hover:text-red-600 font-semibold duration-300 transition-all">Unique DC Motor And Brakes.</p>
-            <p className="hover:text-red-600 font-semibold duration-300 transition-all">+91-7976958311</p>
-            <p className="hover:text-red-600 font-semibold duration-300 transition-all">+91-8233268311</p>
+            <p className="hover:text-red-600 font-semibold duration-300 transition-all">+91-7976958311.</p>
+            <p className="hover:text-red-600 font-semibold duration-300 transition-all">+91-8233268311.</p>
           </div>
 
           {/* Regional Office */}
           <div>
             <h2 className="font-bold text-lg hover:text-red-600 duration-300 transition-all">REGIONAL OFFICES</h2>
             <p className="hover:text-red-600 font-semibold duration-300 transition-all">Udaipur : Power House, Gudli (313024).</p>
-            <p className="hover:text-red-600 font-semibold duration-300 transition-all">Mr. Durgesh Dangi</p>
-            <p className="hover:text-red-600 font-semibold duration-300 transition-all">+91-8233268311, +91-7976958311</p>
+            <p className="hover:text-red-600 font-semibold duration-300 transition-all">Mr. Durgesh Dangi.</p>
+            <p className="hover:text-red-600 font-semibold duration-300 transition-all">+91-8233268311, +91-7976958311.</p>
           </div>
         </div>
 
